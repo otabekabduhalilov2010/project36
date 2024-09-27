@@ -322,4 +322,29 @@ color: white;
 }
 
 
+.card {
+    border: 1px solid rgb(183, 183, 183);
+    width: 310px;
+    height: 370px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+
+.box {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+
+
+
+.flex {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
 

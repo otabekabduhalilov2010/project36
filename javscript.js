@@ -65,3 +65,99 @@ modal.onclick = (e) => {
 
 
 
+
+
+
+
+
+
+
+
+
+const logo = [
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3D Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    },
+    {
+        img:'./img/cards.png',
+        name:'3Ddddd Soft Curves',
+        comment:'Esther Howard',
+        description:'Current Bid',
+        price:'0.85 ETH',
+    }
+]
+
+
+
+
+const box = document.querySelector('.box')
+
+
+
+
+
+
+logo.forEach(card => {
+    box.innerHTML += `
+    
+        <div class="card">
+            <img src=${card.img} alt="">
+            <h1>${card.name}</h1>
+            <p>${card.comment}</p>
+            <div class="flex">
+                <h4>${card.description}</h4>
+                <h3>${card.price}</h3>
+            </div>
+            
+        </div>
+        `
+})
+
+
+
